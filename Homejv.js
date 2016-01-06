@@ -1,6 +1,2 @@
-function toggleNavPanel(e){var n=document.getElementById("cssmenu-wrapper"),t="block";n.style.display==t?(n.style.display="none"):(n.style.display="block")};
-function toggleNavPanel2(e){var n=document.getElementById("search-bottom"),t="block";n.style.display==t?(n.style.display="none"):(n.style.display="block")};
 var imgDefer=document.getElementsByTagName("img");for(var i=0;i<imgDefer.length;i++){if(imgDefer[i].getAttribute("data-src")){imgDefer[i].setAttribute("src",imgDefer[i].getAttribute("data-src"))}};
-function resizeThumb(e,t,s){for(var r=document.getElementById(e),m=r.getElementsByTagName("img"),c=0;c<m.length;c++)m[c].src=m[c].src.replace(/\/s72\-c/,"/s"+t),m[c].width=t,m[c].height=s}resizeThumb("PopularPosts1",246,70);
-var boxArray=["share-menu"];window.addEventListener("mouseup",function(e){for(var r=0;r<boxArray.length;r++){var o=document.getElementById(boxArray[r]);e.target!=o&&e.target.parentNode!=o&&(o.style.display="none")}});
-(function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-71626714-1","auto");ga("send","pageview");
+function resizeThumb(e,t,g){for(var g=document.getElementById(e),m=g.getElementsByTagName("img"),r=0;r<m.length;r++)m[r].src=m[r].src.replace(/\/s72\-c/,"/s"+t),m[r].width=t,m[r].height=t}resizeThumb("Blog1",240,90);
